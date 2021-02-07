@@ -1,5 +1,7 @@
-const UserRoute = require('./UserRoute')
+const FuncionarioRoute = require('./FuncionarioRoute')
+const SetorRoute = require('./SetorRoute')
 
 module.exports = app => {
-    UserRoute(app)
+    FuncionarioRoute(app)
+    SetorRoute(app)
 }
